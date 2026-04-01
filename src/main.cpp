@@ -28,7 +28,7 @@ void windowSetup(GLFWwindow* window){
 }
 int main()
 {
-    GLFWwindow* window = initializeWindow(1000,1000,"Hohmann Transfer");
+    GLFWwindow* window = initializeWindow(1000,1000,"Sample");
     if (!window){
         cout << "Failed to create a GFLW window" << endl;
         glfwTerminate();
